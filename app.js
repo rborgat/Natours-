@@ -72,7 +72,7 @@ app.use(
   })
 );
 
-// Serving static files
+// Start express app
 app.use(express.static(`${__dirname}/public`));
 
 // Test middleware
